@@ -1,0 +1,22 @@
+# macOS系统文件
+.DS_Store
+
+# Python缓存文件
+__pycache__/
+bot/__pycache__/
+
+# 虚拟环境
+.venv/
+
+# 日志文件
+app.log
+bot/app.log
+
+# PyCharm/IDEA配置文件
+.idea/
+
+# 敏感信息
+bot/credentials.py
+
+# 其他
+*.pyc 
