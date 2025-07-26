@@ -14,7 +14,8 @@ The bot fetches APY data from Aave's subgraphs on The Graph using GraphQL querie
 -   `bot/bot.py`: The core logic for the Telegram bot, including command handlers and message processing. This is the entry point for the bot.
 -   `bot/utils.py`: Contains functions for fetching and calculating APY data from the Aave subgraphs.
 -   `bot/model.py`: Defines the `Aave` data model for storing reserve information.
--   `bot/credentials.py`: Stores the Telegram bot token.
+-   `bot/credentials.py`: Stores the Telegram bot token. This file is not checked into version control.
+-   `bot/credentials.py.example`: An example credentials file. Copy this to `bot/credentials.py` and add your credentials.
 
 ## How to run the bot
 
