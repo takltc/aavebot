@@ -1,0 +1,3 @@
+Flask
+pyTelegramBotAPI
+gql[requests]
