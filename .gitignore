@@ -19,4 +19,4 @@ bot/app.log
 bot/credentials.py
 
 # 其他
-*.pyc 
+*.pyc bot/credentials.py

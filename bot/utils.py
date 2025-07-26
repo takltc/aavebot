@@ -3,6 +3,7 @@ import math
 
 from gql import Client, gql
 from gql.transport.requests import RequestsHTTPTransport
+from bot.credentials import thegraph_api
 from model import Aave
 
 logging.basicConfig(
@@ -14,7 +15,7 @@ logging.basicConfig(
 RAY = 10 ** 27
 SECONDS_PER_YEAR = 31536000
 
-API = '272d79f68cfe32ee4c3b91a5165054b5'
+API = thegraph_api
 subgraph = {
     "Ethereum": f"https://gateway-arbitrum.network.thegraph.com/api/{API}/subgraphs/id/Cd2gEDVeqnjBn1hSeqFMitw8Q1iiyV9FYUZkLNRcL87g",
     "Base": "https://api.goldsky.com/api/public/project_clk74pd7lueg738tw9sjh79d6/subgraphs/aave-v3-base/1.0.0/gn",
